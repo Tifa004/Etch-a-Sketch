@@ -6,8 +6,8 @@ function size(x){
   for(let i=0; i< x**2; i++){
     const div = document.createElement('div');
     div.classList.add(`cell`);
-    div.style.width = `${300/x}px`;
-    div.style.height = `${300/x}px`;
+    div.style.width = `${525/x}px`;
+    div.style.height = `${525/x}px`;
     div.style.backgroundColor = 'white';
     div.addEventListener("mouseenter", () => {
       if(div.style.backgroundColor === 'white'){
